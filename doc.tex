@@ -1,0 +1,74 @@
+%\documentclass[preprint]{aastex}
+%\documentclass{emulateapj}
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{amsfonts}
+\usepackage{natbib}
+\usepackage{color}
+
+\bibliographystyle{apj}
+
+%\textwidth 6.5in
+%\textheight 8.5in
+%\topmargin = 0mm
+%\evensidemargin = 0mm
+%\oddsidemargin = 0mm
+
+%Custom Commands
+\newcommand{\al}{\alpha}
+\newcommand{\be}{\beta}
+\newcommand{\gam}{\gamma}
+\newcommand{\Gam}{\Gamma}
+\newcommand{\de}{\delta}
+\newcommand{\De}{\Delta}
+\newcommand{\eps}{\epsilon}
+\newcommand{\sig}{\sigma}
+\newcommand{\Sig}{\Sigma}
+\newcommand{\ka}{\kappa}
+\newcommand{\lam}{\lambda}
+\newcommand{\om}{\omega}
+\newcommand{\Om}{\Omega}
+\newcommand{\Mach}{\mathcal{M}}
+\newcommand{\pd}{\partial}
+\newcommand{\dd}{\mbox{d}}
+
+\newcommand{\Disco}{{\texttt{Disco}}}
+\newcommand{\model}[1]{{Model \texttt{#1}}}
+
+\newcommand{\OO}{\mathcal{O}}
+
+\newcommand{\ave}[1]{\left \langle #1 \right \rangle}
+\newcommand{\avet}[1]{ \langle #1 \rangle}
+\newcommand{\aveRe}[1]{\left \langle #1 \right \rangle_{Re}}
+\newcommand{\aveRet}[1]{ \langle #1  \rangle_{Re}}
+
+\begin{document}
+
+\title{Title}
+\author{Geoffrey Ryan}
+
+This is the text, my figure is Fig \ref{fi:dataplot}.
+
+\begin{figure}
+	\begin{center}
+		\includegraphics[width=0.7\textwidth]{plot.png}
+		\caption{This is my caption.  \label{fi:dataplot}}
+	\end{center}
+\end{figure}
+
+\begin{figure}
+	\begin{center}
+		\includegraphics[width=0.7\textwidth]{plot.pdf}
+		\caption{This is my caption. TIMES TWO  \label{fi:dataplotNice}}
+	\end{center}
+\end{figure}
+\begin{figure}
+	\begin{center}
+		\includegraphics[width=0.7\textwidth]{plotBig.png}
+		\caption{This is my caption. TIMES TWO  \label{fi:dataplotNice}}
+	\end{center}
+\end{figure}
+
+
+\end{document}
